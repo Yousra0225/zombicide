@@ -8,4 +8,4 @@
 
 The following is a UML diagram that illustrates the architecture of the project.
 
-![View the UML diagram](uml/DiagrammeDeClasseVf.jpg)
+![View the UML diagram](data/DiagrammeDeClasseVf.jpg)
