@@ -26,4 +26,12 @@ public abstract class Actor {
     public void resetActions() {
         this.currentActions = maxActions;
     }
+
+    /**
+     * method to get the current actions of the actor
+     * @return
+     */
+    public int getCurrentActions() {
+        return currentActions;
+    }
 }
