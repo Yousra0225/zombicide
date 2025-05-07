@@ -12,4 +12,11 @@ public abstract class Actor {
     protected int maxActions;
     protected int currentActions;
     
+    public Actor(int hp, int maxHp, int maxActions) {
+        // this.position = position;
+        this.hp = hp;
+        this.maxHp = maxHp;
+        this.maxActions = maxActions;
+        this.currentActions = maxActions;
+    }
 }
