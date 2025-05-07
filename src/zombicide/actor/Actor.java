@@ -19,4 +19,11 @@ public abstract class Actor {
         this.maxActions = maxActions;
         this.currentActions = maxActions;
     }
+
+    /**
+     * method to reset the actions of the actor
+     */
+    public void resetActions() {
+        this.currentActions = maxActions;
+    }
 }
