@@ -34,4 +34,13 @@ public abstract class Actor {
     public int getCurrentActions() {
         return currentActions;
     }
+
+    /**
+     * method to take damage from an enemy
+     * @param damage
+     */
+    public void takeDamage(int damage) {
+        this.hp -= damage;
+        if (this.hp < 0) this.hp = 0;
+    }
 }
