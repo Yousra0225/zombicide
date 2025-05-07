@@ -51,4 +51,9 @@ public abstract class Actor {
     public boolean isAlive() {
         return hp > 0;
     }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + " [HP=" + hp + "/" + maxHp + ", Pos=" + "position]";
+    }
 }
