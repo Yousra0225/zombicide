@@ -13,13 +13,13 @@ public abstract class City {
         this.height = height;
     }
 
-    public abssract vois initMap():
+    public abstract void initMap(){}:
     
-    public abstract Road createMajorRoad();
+    // public abstract Road createMajorRoad();
 
     public abstract void initDoor(); 
 
-    public abstract spawnSurvivor();
+    public abstract void spawnSurvivor(){};
 
     public abstract void spawnZombie();
 
