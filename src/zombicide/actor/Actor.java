@@ -43,4 +43,12 @@ public abstract class Actor {
         this.hp -= damage;
         if (this.hp < 0) this.hp = 0;
     }
+
+    /**
+     * method to check if the actor is alive
+     * @return
+     */
+    public boolean isAlive() {
+        return hp > 0;
+    }
 }
